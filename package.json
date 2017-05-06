@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shabanraza/DaysTimer.git"
+    "url": "git://github.com/shabanraza/react-otp-timer..git"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
