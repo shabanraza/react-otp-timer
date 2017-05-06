@@ -2,12 +2,16 @@
   "name": "react-otp-timer",
   "version": "0.1.0",
   "private": false,
-  "main": "src/App.js",
+  "main": "lib/index.js",
   "dependencies": {
     "babel": "^6.23.0",
     "moment": "^2.18.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shabanraza/DaysTimer.git"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",

@@ -1,5 +1,5 @@
 import React                from 'react'
-import Otp        from 'components/Otp'
+import  { Otp } from 'react-otp-timer';
 class App extends React.Component {
 
 
