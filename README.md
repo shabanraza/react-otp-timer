@@ -9,7 +9,7 @@ Just import the component and pass the no of minutes  and styles in otp componen
 
 ``` javascript
 import React                from 'react'
-import Otp        from 'components/Otp'
+import  { Otp } from 'react-otp-timer';
 class App extends React.Component {
 
 
