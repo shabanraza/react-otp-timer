@@ -1,22 +1,22 @@
 # react-otp-timer
-You can use this component in login with otp.
+You can use this component to log in with OTP.
 ## Install
 
 `npm install react-otp-timer --save`
 
 ## Usage
-Just import the component and pass the no of minutes  and styles in otp component.
+Just import the component and pass the number of minutes and styles in the otp component.
 
 ``` javascript
-import React                from 'react'
+import React from'react'
 import  { Otp } from 'react-otp-timer';
 class App extends React.Component {
 
 
-    //callback of resend button
+    //callback of the send button
     resendEvent() { 
      
-     console.log("***************Resend button pressed do stuff here *********************")
+     console.log("***************Resend button pressed, do stuff here *********************")
 
     }
     
@@ -38,8 +38,8 @@ class App extends React.Component {
             <h1>Otp Timer counter</h1>
             <Otp
                 style={style}
-                minutes={1.5}      // Minutes ( Pass the no of minutes that you want count )
-                resendEvent={this.resendEvent.bind(this)} //  Resend button event you can pass your function name here
+                minutes=1.5 // Minutes (Enter the number of minutes to count)
+                resendEvent=this.resendEvent.bind(this)} //  Resend button event You can pass your function name here
             />
         </div>
     )
