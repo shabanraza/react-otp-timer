@@ -1,17 +1,36 @@
 {
   "name": "react-otp-timer",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "description": "A React OTP countdown timer component with a configurable resend button.",
   "private": false,
   "main": "lib/index.js",
-  "dependencies": {
-    "babel": "^6.23.0",
-    "moment": "^2.18.1",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "react",
+    "otp",
+    "timer",
+    "countdown",
+    "resend",
+    "one-time-password"
+  ],
+  "author": "shabanraza",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shabanraza/react-otp-timer..git"
+    "url": "git+https://github.com/shabanraza/react-otp-timer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shabanraza/react-otp-timer/issues"
+  },
+  "homepage": "https://github.com/shabanraza/react-otp-timer#readme",
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
@@ -49,7 +68,9 @@
     "object-assign": "4.1.1",
     "postcss-loader": "1.2.2",
     "promise": "7.1.1",
+    "react": "^15.5.4",
     "react-dev-utils": "^0.5.2",
+    "react-dom": "^15.5.4",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
     "webpack": "1.14.0",
